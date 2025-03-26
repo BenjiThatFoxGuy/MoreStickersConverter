@@ -6,9 +6,6 @@ on:
     paths:
       - 'Dockerfile'
       - 'src/**'
-  pull_request:
-    branches:
-      - build
   workflow_dispatch:
 
 jobs:
